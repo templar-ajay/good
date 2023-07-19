@@ -1,363 +1,58 @@
 import "./App.css";
+import FeaturedAds from "./components/FeaturedAds";
+import FeaturedProducts from "./components/FeaturedProducts";
+import Services from "./components/Services";
+import TopNav from "./components/TopNav";
+import WellnessCards from "./components/WellnessCards";
 
 function App() {
+  const bestSellers = [
+    {
+      id: 1,
+      title: "Anti-ageing Combo",
+      imageSrc: "./assets/group-18176-poT.png",
+      price: "Rs. 999",
+      discount: "-40%",
+      msp: "Rs. 1,598",
+      rating: 4.7,
+    },
+    {
+      id: 2,
+      title: "Anti-ageing Combo",
+      imageSrc: "./assets/group-18176-poT.png",
+      price: "Rs. 999",
+      discount: "-40%",
+      msp: "Rs. 1,598",
+      rating: 4.7,
+    },
+    {
+      id: 3,
+      title: "Anti-ageing Combo",
+      imageSrc: "./assets/group-18176-poT.png",
+      price: "Rs. 999",
+      discount: "-40%",
+      msp: "Rs. 1,598",
+      rating: 4.7,
+    },
+  ];
+
   return (
     <div className="home-screen-tracker-user-M8d">
-      <div className="auto-group-8bsm-94V">
-        <div className="browser-bar-android-chrome-1F7">
-          <div className="background-urH">
-            <div className="android-status-bar-pyF">
-              <div className="item-12-30-NE5">10:00</div>
-              <img
-                className="signal-cellular-9Gm"
-                src="./assets/signal-cellular.png"
-              />
-              <img className="signal-wifi-EZ7" src="./assets/signal-wifi.png" />
-              <img
-                className="battery-full-Lc9"
-                src="./assets/battery-full.png"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="item-1678952854169-1-Qc1" />
-        <div className="frame-20310-gJd">
-          <div className="group-20530-BWH">
-            <img
-              className="majesticons-home-8wK"
-              src="./assets/majesticons-home.png"
-            />
-            <div className="markhsitemcount-Sh7">1</div>
-          </div>
-        </div>
-        <div className="frame-20398-qjF">
-          <img
-            className="saturn-new-logo-white-3-Mhb"
-            src="./assets/saturn-new-logo-white-3.png"
-          />
-        </div>
-      </div>
+      <TopNav />
       <div className="welcome-june-GJm">
         <span className="welcome-june-GJm-sub-0">Welcome,</span>
         <span className="welcome-june-GJm-sub-1"> </span>
         <span className="welcome-june-GJm-sub-2">June!</span>
       </div>
       <div className="auto-group-vbtt-Rcu">
-        <div className="frame-3906-ic1">
-          <div className="frame-3904-SY1">
-            <div className="rectangle-27877-aeD" />
-            <div className="untitled-design-73-1-Ujb" />
-            <div className="track-yAZ">TRACK</div>
-          </div>
-          <div className="frame-3904-4xh">
-            <div className="rectangle-27877-1sw" />
-            <div className="wallet-LQR">WALLET</div>
-            <div className="untitled-design-92-1-2Y9" />
-          </div>
-          <div className="group-19568-2wT">
-            <div className="frame-3904-NVX">
-              <div className="rectangle-27877-Je5" />
-              <div className="blogs-2a5">BLOGS</div>
-            </div>
-            <div className="untitled-design-73-1-6pq" />
-          </div>
-          <div className="auto-group-qaum-zfK">
-            <div className="frame-3904-waZ">
-              <div className="rectangle-27877-HPX" />
-              <div className="consult-osf">CONSULT</div>
-            </div>
-            <div className="untitled-design-73-1-uQu" />
-          </div>
-        </div>
-        <div className="frame-3870-zBT">
-          <div className="auto-group-arxu-HAZ">
-            <div className="wellness-overview--16Z">Wellness Overview:</div>
-            <div className="frame-20297-7vH">
-              <div className="group-19775-efK">
-                <img
-                  className="ic-baseline-water-drop-Pso"
-                  src="./assets/ic-baseline-water-drop-ec1.png"
-                />
-                <p className="kgs-htV">80.5 kgs</p>
-              </div>
-            </div>
-          </div>
-          <div className="auto-group-qkbb-mtM">
-            <div className="auto-group-ueiz-X6q">
-              <div className="auto-group-rnvb-SzV">
-                <div className="item-40-noT">40</div>
-                <div className="frame-20298-KHb">Overweight</div>
-              </div>
-              <p className="your-current-bmi-8Vw">Your current BMI</p>
-            </div>
-            <div className="auto-group-sgqt-sCd">
-              <div className="frame-20296-buK">
-                <div className="group-19774-hhT">
-                  <img
-                    className="ic-baseline-water-drop-4H7"
-                    src="./assets/ic-baseline-water-drop-TyK.png"
-                  />
-                  <p className="hours-nU1">7/8 Hours</p>
-                </div>
-              </div>
-              <div className="frame-20295-G8H">
-                <div className="group-19773-bgM">
-                  <img
-                    className="ic-baseline-water-drop-ZNH"
-                    src="./assets/ic-baseline-water-drop.png"
-                  />
-                  <p className="glasses-67K">4/8 Glasses</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="auto-group-hu9b-wdj">
-          <div className="group-19807-fZj">
-            <div className="frame-3870-DLM">
-              <div className="group-19817-aAu">
-                <div className="auto-group-4tyb-W4Z">
-                  <img className="vector-34V" src="./assets/vector.png" />
-                  <p className="weeks-aq7">5 weeks</p>
-                </div>
-                <div className="group-19768-vty">
-                  <img
-                    className="asicon-outline-gallery-t57"
-                    src="./assets/asicon-outline-gallery-RW9.png"
-                  />
-                  <p className="uploads-cWu">20 uploads</p>
-                </div>
-              </div>
-              <div className="group-19770-9mj">
-                <div className="group-19762-V4u">
-                  <div className="overall-skin-score--RDT">
-                    Overall Skin score:
-                  </div>
-                  <div className="item-45-Yos">45</div>
-                </div>
-                <div className="group-19767-gv5">
-                  <div className="group-19766-eM7">
-                    <div className="rectangle-27892-QLH" />
-                  </div>
-                  <div className="group-19760-szZ">
-                    <p className="week--E4R">Week:</p>
-                    <p className="item-40-54-ZsP">40/54</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="group-19809-qa1">
-            <div className="frame-3870-C9f">
-              <div className="hair-tracker--vLZ">Hair Tracker:</div>
-              <div className="group-19818-dkm">
-                <div className="auto-group-5nxp-z5X">
-                  <img className="vector-7vq" src="./assets/vector-6hf.png" />
-                  <p className="weeks-GHw">5 weeks</p>
-                </div>
-                <div className="group-19768-cMo">
-                  <img
-                    className="asicon-outline-gallery-NLy"
-                    src="./assets/asicon-outline-gallery.png"
-                  />
-                  <p className="uploads-WCH">20 uploads</p>
-                </div>
-              </div>
-              <div className="group-19768-r1F">
-                <div className="group-19766-Pms">
-                  <div className="rectangle-27892-kcR" />
-                </div>
-                <div className="group-19760-EnV">
-                  <p className="week--zFs">Week:</p>
-                  <p className="item-40-54-7LV">40/54</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="frame-3864-ibB">
-          <div className="view-all-trackers-CmF">View all trackers</div>
-          <img className="vector-jFP" src="./assets/vector-XxV.png" />
-        </div>
-        <div className="horizontal-scroll-container">
-          <div className="frame-20352-cpy">
-            <div className="group-31-M1s">
-              <div className="group-20578-6VF">
-                <img
-                  className="sunscreen-front-1-1s7"
-                  src="./assets/rectangle-4-bg.png"
-                />
-              </div>
-              <div className="group-20578-6VF">
-                <img
-                  className="rectangle-5-PMs"
-                  src="./assets/rectangle-5.png"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="auto-group-hzly-5kV">
-          <p className="bestsellers-biq">Bestsellers</p>
-          <div className="frame-20313-iYZ">View all</div>
-        </div>
-        <div className="horizontal-scroll-container">
-          <div className="auto-group-hrpb-m13">
-            <div className="group-19130-HVB">
-              <div className="group-18178-pED">
-                <div className="group-18176-ZBo">
-                  <div className="rectangle-27655-uFf" />
-                  <div className="rectangle-27656-cfs" />
-                  <div className="frame-20399-88R">
-                    <img
-                      className="group-18176-e6m"
-                      src="./assets/group-18176-x7K.png"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="group-18369-gJM">
-                <img
-                  className="rectangle-27652-DZB"
-                  src="./assets/rectangle-27652-7TP.png"
-                />
-                <p className="item-40-Xpm">-40%</p>
-              </div>
-              <img
-                className="rectangle-27671-SB3"
-                src="./assets/rectangle-27671-7qB.png"
-              />
-              <p className="anti-ageing-combo-Asj">
-                Anti-ageing Combo
-                <br />
-              </p>
-              <p className="item-47-5E1">(4.7)</p>
-              <p className="rs-999-rs-1598-Nyo">
-                <span className="rs-999-rs-1598-Nyo-sub-0">Rs. 999</span>
-                <span className="rs-999-rs-1598-Nyo-sub-1"> </span>
-                <span className="rs-999-rs-1598-Nyo-sub-2">Rs. 1,598</span>
-              </p>
-              <div className="group-19559-W6M">
-                <img
-                  className="ic-round-star-znD"
-                  src="./assets/ic-round-star-P8d.png"
-                />
-                <img
-                  className="ic-round-star-vA5"
-                  src="./assets/ic-round-star-ue9.png"
-                />
-                <img
-                  className="ic-round-star-rpR"
-                  src="./assets/ic-round-star-bGm.png"
-                />
-                <img
-                  className="ic-round-star-bX7"
-                  src="./assets/ic-round-star-aBT.png"
-                />
-                <img
-                  className="ic-round-star-9Hj"
-                  src="./assets/ic-round-star-mTF.png"
-                />
-              </div>
-            </div>
-            <div className="group-19130-goT">
-              <div className="group-18178-dCu">
-                <div className="group-18176-NRP">
-                  <div className="rectangle-27655-XJH" />
-                  <div className="rectangle-27656-eNu" />
-                  <div className="frame-20399-NJu">
-                    <img
-                      className="group-18176-5j7"
-                      src="./assets/group-18176-poT.png"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="group-18369-vjj">
-                <img
-                  className="rectangle-27652-4qw"
-                  src="./assets/rectangle-27652-z7j.png"
-                />
-                <p className="item-40-1WH">-40%</p>
-              </div>
-              <img
-                className="rectangle-27671-7ZK"
-                src="./assets/rectangle-27671.png"
-              />
-              <p className="anti-ageing-combo-ep9">
-                Anti-ageing Combo
-                <br />
-              </p>
-              <p className="item-47-xZw">(4.7)</p>
-              <p className="rs-999-rs-1598-rvD">
-                <span className="rs-999-rs-1598-rvD-sub-0">Rs. 999</span>
-                <span className="rs-999-rs-1598-rvD-sub-1"> </span>
-                <span className="rs-999-rs-1598-rvD-sub-2">Rs. 1,598</span>
-              </p>
-              <div className="group-19559-2Lq">
-                <img
-                  className="ic-round-star-uQd"
-                  src="./assets/ic-round-star.png"
-                />
-                <img
-                  className="ic-round-star-e7K"
-                  src="./assets/ic-round-star-Xr9.png"
-                />
-                <img
-                  className="ic-round-star-PKo"
-                  src="./assets/ic-round-star-PrH.png"
-                />
-                <img
-                  className="ic-round-star-jPf"
-                  src="./assets/ic-round-star-zAV.png"
-                />
-                <img
-                  className="ic-round-star-5Cd"
-                  src="./assets/ic-round-star-qEy.png"
-                />
-              </div>
-            </div>
-            <div className="group-19130-oeR">
-              <div className="group-18178-9iH">
-                <div className="group-18176-gy7">
-                  <div className="rectangle-27655-Ejj" />
-                  <div className="rectangle-27656-xfj" />
-                  <div className="frame-20399-5VT">
-                    <img
-                      className="group-18176-Ca5"
-                      src="./assets/group-18176-B3w.png"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="group-18369-TW1">
-                <img
-                  className="rectangle-27652-oJy"
-                  src="./assets/rectangle-27652-a5P.png"
-                />
-                <p className="item-40-jiR">-40%</p>
-              </div>
-              <img
-                className="rectangle-27671-Ssj"
-                src="./assets/rectangle-27671-hus.png"
-              />
-              <p className="anti-ageing-combo-P2H">
-                Anti-ageing Combo
-                <br />
-              </p>
-              <p className="item-47-gXB">(4.7)</p>
-              <p className="rs-999-rs-1598-Nuo">
-                <span className="rs-999-rs-1598-Nuo-sub-0">Rs. 999</span>
-                <span className="rs-999-rs-1598-Nuo-sub-1"> </span>
-                <span className="rs-999-rs-1598-Nuo-sub-2">Rs. 1,598</span>
-              </p>
-              <img
-                className="group-19559-AjB"
-                src="./assets/group-19559-iQR.png"
-              />
-            </div>
-          </div>
-        </div>
+        <Services />
+
+        <WellnessCards />
+
+        <FeaturedAds />
+
+        <FeaturedProducts data={bestSellers} category="Bestsellers" />
+
         <div className="auto-group-p1u7-JKb">
           <p className="hair-care-pYq">Hair Care</p>
           <div className="frame-20353-MHs">View all</div>
