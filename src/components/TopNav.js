@@ -8,9 +8,18 @@ export default function TopNav() {
             <img
               className="signal-cellular-9Gm"
               src="./assets/signal-cellular.png"
+              alt="..."
             />
-            <img className="signal-wifi-EZ7" src="./assets/signal-wifi.png" />
-            <img className="battery-full-Lc9" src="./assets/battery-full.png" />
+            <img
+              className="signal-wifi-EZ7"
+              src="./assets/signal-wifi.png"
+              alt="..."
+            />
+            <img
+              className="battery-full-Lc9"
+              src="./assets/battery-full.png"
+              alt="..."
+            />
           </div>
         </div>
       </div>
@@ -20,6 +29,7 @@ export default function TopNav() {
           <img
             className="majesticons-home-8wK"
             src="./assets/majesticons-home.png"
+            alt="..."
           />
           <div className="markhsitemcount-Sh7">1</div>
         </div>
@@ -28,6 +38,7 @@ export default function TopNav() {
         <img
           className="saturn-new-logo-white-3-Mhb"
           src="./assets/saturn-new-logo-white-3.png"
+          alt="..."
         />
       </div>
     </div>

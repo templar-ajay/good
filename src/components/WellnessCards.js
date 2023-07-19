@@ -9,6 +9,7 @@ export default function WellnessCards() {
               <img
                 className="ic-baseline-water-drop-Pso"
                 src="./assets/ic-baseline-water-drop-ec1.png"
+                alt="..."
               />
               <p className="kgs-htV">80.5 kgs</p>
             </div>
@@ -28,6 +29,7 @@ export default function WellnessCards() {
                 <img
                   className="ic-baseline-water-drop-4H7"
                   src="./assets/ic-baseline-water-drop-TyK.png"
+                  alt="..."
                 />
                 <p className="hours-nU1">7/8 Hours</p>
               </div>
@@ -36,6 +38,7 @@ export default function WellnessCards() {
               <div className="group-19773-bgM">
                 <img
                   className="ic-baseline-water-drop-ZNH"
+                  alt="..."
                   src="./assets/ic-baseline-water-drop.png"
                 />
                 <p className="glasses-67K">4/8 Glasses</p>
@@ -50,13 +53,18 @@ export default function WellnessCards() {
           <div className="frame-3870-DLM">
             <div className="group-19817-aAu">
               <div className="auto-group-4tyb-W4Z">
-                <img className="vector-34V" src="./assets/vector.png" />
+                <img
+                  className="vector-34V"
+                  src="./assets/vector.png"
+                  alt="..."
+                />
                 <p className="weeks-aq7">5 weeks</p>
               </div>
               <div className="group-19768-vty">
                 <img
                   className="asicon-outline-gallery-t57"
                   src="./assets/asicon-outline-gallery-RW9.png"
+                  alt="..."
                 />
                 <p className="uploads-cWu">20 uploads</p>
               </div>
@@ -85,13 +93,18 @@ export default function WellnessCards() {
             <div className="hair-tracker--vLZ">Hair Tracker:</div>
             <div className="group-19818-dkm">
               <div className="auto-group-5nxp-z5X">
-                <img className="vector-7vq" src="./assets/vector-6hf.png" />
+                <img
+                  className="vector-7vq"
+                  src="./assets/vector-6hf.png"
+                  alt="..."
+                />
                 <p className="weeks-GHw">5 weeks</p>
               </div>
               <div className="group-19768-cMo">
                 <img
                   className="asicon-outline-gallery-NLy"
                   src="./assets/asicon-outline-gallery.png"
+                  alt="..."
                 />
                 <p className="uploads-WCH">20 uploads</p>
               </div>
@@ -111,7 +124,7 @@ export default function WellnessCards() {
 
       <div className="frame-3864-ibB">
         <div className="view-all-trackers-CmF">View all trackers</div>
-        <img className="vector-jFP" src="./assets/vector-XxV.png" />
+        <img className="vector-jFP" src="./assets/vector-XxV.png" alt="..." />
       </div>
     </>
   );

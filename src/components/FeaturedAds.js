@@ -7,10 +7,15 @@ export default function FeaturedAds() {
             <img
               className="sunscreen-front-1-1s7"
               src="./assets/rectangle-4-bg.png"
+              alt="..."
             />
           </div>
           <div className="group-20578-6VF">
-            <img className="rectangle-5-PMs" src="./assets/rectangle-5.png" />
+            <img
+              className="rectangle-5-PMs"
+              src="./assets/rectangle-5.png"
+              alt="..."
+            />
           </div>
         </div>
       </div>

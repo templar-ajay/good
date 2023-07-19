@@ -14,7 +14,7 @@ export default function FeaturedProducts({ category, data }) {
                   <div className="rectangle-27655-uFf" />
                   <div className="rectangle-27656-cfs" />
                   <div className="frame-20399-88R">
-                    <img className="group-18176-e6m" src={imageSrc} />
+                    <img className="group-18176-e6m" src={imageSrc} alt="..." />
                   </div>
                 </div>
               </div>
@@ -22,12 +22,14 @@ export default function FeaturedProducts({ category, data }) {
                 <img
                   className="rectangle-27652-DZB"
                   src="./assets/rectangle-27652-7TP.png"
+                  alt="..."
                 />
                 <p className="item-40-Xpm">{discount}</p>
               </div>
               <img
                 className="rectangle-27671-SB3"
                 src="./assets/rectangle-27671-7qB.png"
+                alt="..."
               />
               <p className="anti-ageing-combo-Asj">
                 {title}
@@ -43,22 +45,27 @@ export default function FeaturedProducts({ category, data }) {
                 <img
                   className="ic-round-star-znD"
                   src="./assets/ic-round-star-P8d.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-vA5"
                   src="./assets/ic-round-star-ue9.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-rpR"
                   src="./assets/ic-round-star-bGm.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-bX7"
                   src="./assets/ic-round-star-aBT.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-9Hj"
                   src="./assets/ic-round-star-mTF.png"
+                  alt="..."
                 />
               </div>
             </div>

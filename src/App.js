@@ -67,6 +67,7 @@ function App() {
                   <img
                     className="group-18176-CbK"
                     src="./assets/group-18176-Wzm.png"
+                    alt="..."
                   />
                 </div>
               </div>
@@ -74,12 +75,14 @@ function App() {
                 <img
                   className="rectangle-27652-QxH"
                   src="./assets/rectangle-27652-Y73.png"
+                  alt="..."
                 />
                 <p className="item-40-xD7">-40%</p>
               </div>
               <img
                 className="rectangle-27671-Tff"
                 src="./assets/rectangle-27671-nY1.png"
+                alt="..."
               />
               <p className="anti-ageing-combo-oDj">
                 Anti-ageing Combo
@@ -89,22 +92,27 @@ function App() {
                 <img
                   className="ic-round-star-nrM"
                   src="./assets/ic-round-star-cfs.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-vSm"
                   src="./assets/ic-round-star-uPX.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-4Yy"
                   src="./assets/ic-round-star-d8m.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-boo"
                   src="./assets/ic-round-star-jNh.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-wcm"
                   src="./assets/ic-round-star-mfw.png"
+                  alt="..."
                 />
               </div>
               <p className="item-47-t2D">(4.7)</p>
@@ -124,6 +132,7 @@ function App() {
                   <img
                     className="group-18176-azV"
                     src="./assets/group-18176-VQd.png"
+                    alt="..."
                   />
                 </div>
               </div>
@@ -131,12 +140,14 @@ function App() {
                 <img
                   className="rectangle-27652-at1"
                   src="./assets/rectangle-27652-3eR.png"
+                  alt="..."
                 />
                 <p className="item-40-7sw">-40%</p>
               </div>
               <img
                 className="rectangle-27671-2k1"
                 src="./assets/rectangle-27671-DVb.png"
+                alt="..."
               />
               <p className="anti-ageing-combo-y9T">
                 Anti-ageing Combo
@@ -152,22 +163,27 @@ function App() {
                 <img
                   className="ic-round-star-4s3"
                   src="./assets/ic-round-star-o7w.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-opd"
                   src="./assets/ic-round-star-pFb.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-LpZ"
                   src="./assets/ic-round-star-HqK.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-gNd"
                   src="./assets/ic-round-star-17o.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-cn5"
                   src="./assets/ic-round-star-u77.png"
+                  alt="..."
                 />
               </div>
             </div>
@@ -178,6 +194,7 @@ function App() {
                   <img
                     className="group-18176-6Ks"
                     src="./assets/group-18176-zGZ.png"
+                    alt="..."
                   />
                 </div>
               </div>
@@ -185,12 +202,14 @@ function App() {
                 <img
                   className="rectangle-27652-XAH"
                   src="./assets/rectangle-27652.png"
+                  alt="..."
                 />
                 <p className="item-40-TJq">-40%</p>
               </div>
               <img
                 className="rectangle-27671-xmP"
                 src="./assets/rectangle-27671-j4M.png"
+                alt="..."
               />
               <p className="anti-ageing-combo-HYm">
                 Anti-ageing Combo
@@ -202,7 +221,11 @@ function App() {
                 <span className="rs-999-rs-1598-tHf-sub-1"> </span>
                 <span className="rs-999-rs-1598-tHf-sub-2">Rs. 1,598</span>
               </p>
-              <img className="group-19559-Hj7" src="./assets/group-19559.png" />
+              <img
+                className="group-19559-Hj7"
+                src="./assets/group-19559.png"
+                alt="..."
+              />
             </div>
           </div>
         </div>
@@ -265,6 +288,7 @@ function App() {
                     <img
                       className="group-18176-WoT"
                       src="./assets/group-18176.png"
+                      alt="..."
                     />
                   </div>
                 </div>
@@ -273,12 +297,14 @@ function App() {
                 <img
                   className="rectangle-27652-7oF"
                   src="./assets/rectangle-27652-2oK.png"
+                  alt="..."
                 />
                 <p className="item-40-f45">-40%</p>
               </div>
               <img
                 className="rectangle-27671-mN1"
                 src="./assets/rectangle-27671-Cyo.png"
+                alt="..."
               />
               <p className="anti-ageing-combo-J73">
                 Anti-ageing Combo
@@ -288,22 +314,27 @@ function App() {
                 <img
                   className="ic-round-star-5n1"
                   src="./assets/ic-round-star-THB.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-d2q"
                   src="./assets/ic-round-star-Jnd.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-A2m"
                   src="./assets/ic-round-star-rwj.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-uFF"
                   src="./assets/ic-round-star-FtV.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-eCq"
                   src="./assets/ic-round-star-qEh.png"
+                  alt="..."
                 />
               </div>
               <p className="item-47-z1o">(4.7)</p>
@@ -321,6 +352,7 @@ function App() {
                     <img
                       className="group-18176-eZX"
                       src="./assets/group-18176-57o.png"
+                      alt="..."
                     />
                   </div>
                 </div>
@@ -329,12 +361,14 @@ function App() {
                 <img
                   className="rectangle-27652-dwF"
                   src="./assets/rectangle-27652-Ytq.png"
+                  alt="..."
                 />
                 <p className="item-40-MsF">-40%</p>
               </div>
               <img
                 className="rectangle-27671-GDX"
                 src="./assets/rectangle-27671-ypd.png"
+                alt="..."
               />
               <p className="anti-ageing-combo-Q4q">
                 Anti-ageing Combo
@@ -350,22 +384,27 @@ function App() {
                 <img
                   className="ic-round-star-5MK"
                   src="./assets/ic-round-star-Luf.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-p41"
                   src="./assets/ic-round-star-KeR.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-M3w"
                   src="./assets/ic-round-star-6Cq.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-tpZ"
                   src="./assets/ic-round-star-EtZ.png"
+                  alt="..."
                 />
                 <img
                   className="ic-round-star-EtR"
                   src="./assets/ic-round-star-BZ3.png"
+                  alt="..."
                 />
               </div>
             </div>
@@ -377,6 +416,7 @@ function App() {
                     <img
                       className="group-18176-qmj"
                       src="./assets/group-18176-ijT.png"
+                      alt="..."
                     />
                   </div>
                 </div>
@@ -385,12 +425,14 @@ function App() {
                 <img
                   className="rectangle-27652-2rD"
                   src="./assets/rectangle-27652-5Tw.png"
+                  alt="..."
                 />
                 <p className="item-40-NfB">-40%</p>
               </div>
               <img
                 className="rectangle-27671-HXF"
                 src="./assets/rectangle-27671-5z1.png"
+                alt="..."
               />
               <p className="anti-ageing-combo-cpR">
                 Anti-ageing Combo
@@ -405,6 +447,7 @@ function App() {
               <img
                 className="group-19559-2v5"
                 src="./assets/group-19559-mLm.png"
+                alt="..."
               />
             </div>
           </div>
@@ -457,11 +500,12 @@ function App() {
           <img
             className="skill-icons-instagram-4t1"
             src="./assets/skill-icons-instagram.png"
+            alt="..."
           />
           <div className="join-our-10k-family-on-instagram-QBB">
             Join our 10K family on Instagram
           </div>
-          <img className="vector-u7w" src="./assets/vector-xc1.png" />
+          <img className="vector-u7w" src="./assets/vector-xc1.png" alt="..." />
         </div>
         <div className="group-19567-1Rs">
           <div className="frame-20282-LDF">
@@ -469,6 +513,7 @@ function App() {
               <img
                 className="majesticons-home-p8R"
                 src="./assets/majesticons-home-tvm.png"
+                alt="..."
               />
               <p className="home-k25">Home</p>
             </div>
@@ -476,6 +521,7 @@ function App() {
               <img
                 className="majesticons-home-1To"
                 src="./assets/majesticons-home-3AH.png"
+                alt="..."
               />
               <p className="track-LFB">Track</p>
             </div>
@@ -483,6 +529,7 @@ function App() {
               <img
                 className="majesticons-home-QVw"
                 src="./assets/majesticons-home-7Kw.png"
+                alt="..."
               />
               <p className="search-Kso">Search</p>
             </div>
@@ -490,6 +537,7 @@ function App() {
               <img
                 className="majesticons-home-RR3"
                 src="./assets/majesticons-home-gQh.png"
+                alt="..."
               />
               <p className="account-9bw">Account</p>
             </div>
